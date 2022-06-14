@@ -24,3 +24,4 @@ else:
         v_1 = v_2  
         v_2 = val 
         counter += 1  
+        
