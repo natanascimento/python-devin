@@ -8,7 +8,7 @@ def fibonacci(n):
     primeiro = 1
     segundo = 1
     terceiro = 0
-    for i in range(1, n):
+    for i in range(0, n):
         print(f"{primeiro} ", end=" ")
         terceiro = segundo + primeiro
         primeiro = segundo
