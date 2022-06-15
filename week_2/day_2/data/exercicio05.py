@@ -36,10 +36,10 @@ while True:
                     print(nome)
 
             case "2":
-                cidade = input("Digite o país: ").lower()
+                pais = input("Digite o país: ").lower()
                 nomesporpais = [nome for nome in listanomes if nome.lower().split(";")[
-                    2].startswith(cidade)]
-                print("Todos da China")
+                    2].startswith(pais)]
+                print(f"Todos da {pais}")
                 # printando nomes de origem Chinesa
                 for nome in nomesporpais:
                     print(nome)
