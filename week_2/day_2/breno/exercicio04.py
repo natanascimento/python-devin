@@ -4,3 +4,4 @@ print(f.read())
 y = [x for x in f]
 
 print(y)
+
