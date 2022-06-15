@@ -11,5 +11,7 @@ if __name__ == "__main__":
     file = open(FAKENAMES, 'r')
 
     lines = file.readlines()
-    for i in lines:
-        print(i.split(';')[1])
+    nameslist = [i.split(';')[1] for i in lines]
+    print(nameslist)
+    # for i in lines:
+    #     print(i.split(';')[1])
