@@ -4,6 +4,7 @@ as linhas no console;
 ●Crie um método que armazene os nomes em uma lista utilizando list
 comprehensions;
 """
+import os
 
 with open("nomes.txt") as arquivo:
     listanomes = [nome for nome in arquivo.readlines()]
@@ -15,17 +16,19 @@ while True:
     print("3. Listar todos os nomes")
     print("0. sair")
     opcao = input("Opção: ")
+    os.system("clear")
 
     if opcao.isnumeric():
         match opcao:
             case "0":
                 print("Você saiu")
                 break
-            
+
             case "1":
                 nomep = input("Digite o nome pra procurar: ").lower()
 
-                procurandonomes = [nome for nome in listanomes if nome.lower().split(";")[1].startswith(nomep)]
+                procurandonomes = [nome for nome in listanomes if nome.lower().split(";")[
+                    1].startswith(nomep)]
 
                 print(f"Todos nomes que começam com {nomep}")
                 # Printando nomes que começam com B
@@ -34,7 +37,8 @@ while True:
 
             case "2":
                 cidade = input("Digite o país: ").lower()
-                nomesporpais = [nome for nome in listanomes if nome.lower().split(";")[2].startswith(cidade)]
+                nomesporpais = [nome for nome in listanomes if nome.lower().split(";")[
+                    2].startswith(cidade)]
                 print("Todos da China")
                 # printando nomes de origem Chinesa
                 for nome in nomesporpais:
@@ -48,4 +52,3 @@ while True:
 
             case _:
                 print("Opção inválida")
-
