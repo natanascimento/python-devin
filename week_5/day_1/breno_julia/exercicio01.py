@@ -20,7 +20,6 @@ class Agricultor:
     def ferramenta(self, ferramenta):
         self.__ferramenta = ferramenta
 
-
 class Ferramenta:
     def __init__(self, tipo):
         self.__tipo = tipo
