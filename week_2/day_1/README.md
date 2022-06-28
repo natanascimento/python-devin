@@ -14,3 +14,11 @@
 - [X] Terceiro caractere do texto três;
 
 ## Exercise 2
+
+### ***Crie um algoritmo que leia três vezes um texto no terminal e com um único print retorne:***
+- [ ] O tamanho do texto;
+- [ ] A junção do primeiro texto com o terceiro texto gerando um novo texto (quarto texto);
+- [ ] Uma validação se existe o primeiro texto no quarto texto;
+- [ ] Uma validação se existe o segundo texto no quarto texto;
+- [ ] Primeiro caractere do quarto texto;
+- [ ] Terceiro caractere do texto três;
