@@ -23,8 +23,9 @@ compra_3 = Carrinho('Requeijão', 6.99)
 
 
 produto = Produto()
+
 produto.inserir_produto(compra_1)
 produto.inserir_produto(compra_2)
 produto.inserir_produto(compra_3)
-produto.mostrar_lista()
 
+produto.mostrar_lista()
