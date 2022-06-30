@@ -29,6 +29,7 @@ class Endereco:
 
 if __name__ == "__main__":
     cliente = Cliente(nome="Natan")
+
     #cliente.cadastrar_endereco(cidade="Aracaju",
                                #estado="SE")
     cliente.listar_enderecos()
